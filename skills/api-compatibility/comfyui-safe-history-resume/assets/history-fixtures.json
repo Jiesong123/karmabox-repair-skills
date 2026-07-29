@@ -1,0 +1,76 @@
+{
+  "current_image": {
+    "prompt-current": {
+      "outputs": {
+        "9": {
+          "images": [
+            {
+              "filename": "shot01_00001_.png",
+              "subfolder": "flower_scene",
+              "type": "output"
+            }
+          ]
+        }
+      },
+      "status": {
+        "completed": true,
+        "status_str": "success",
+        "messages": []
+      }
+    }
+  },
+  "legacy_video": {
+    "prompt-legacy": {
+      "outputs": {
+        "31": {
+          "video": {
+            "name": "clip_00001_.mp4",
+            "subfolder": "flower_scene",
+            "type": "output"
+          }
+        }
+      },
+      "status": {
+        "completed": true,
+        "status_str": "success",
+        "messages": []
+      }
+    }
+  },
+  "execution_error": {
+    "prompt-error": {
+      "outputs": {},
+      "status": {
+        "completed": false,
+        "status_str": "error",
+        "messages": [
+          [
+            "execution_error",
+            {
+              "node_id": "12",
+              "exception_type": "RuntimeError",
+              "exception_message": "fixture failure"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "completed_empty": {
+    "prompt-empty": {
+      "outputs": {},
+      "status": {
+        "completed": true,
+        "status_str": "success",
+        "messages": [
+          [
+            "execution_success",
+            {
+              "prompt_id": "prompt-empty"
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

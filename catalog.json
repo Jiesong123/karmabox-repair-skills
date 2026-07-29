@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "repository": "karmabox-repair-skills",
+  "categories": {
+    "api-compatibility": "API fields, response shapes, version compatibility and media download fixes",
+    "connection-recovery": "Address discovery, network connectivity, service recovery and health checks",
+    "runtime-recovery": "OOM, process exit, queue recovery, locking and resumable execution",
+    "workflow-repair": "ComfyUI nodes, model combinations and workflow structure repairs",
+    "quality-control": "Image, video, identity consistency and delivery validation"
+  },
+  "skills": [
+    {
+      "name": "comfyui-safe-history-resume",
+      "version": "1.0.0",
+      "category": "api-compatibility",
+      "status": "validated",
+      "path": "skills/api-compatibility/comfyui-safe-history-resume",
+      "problem_ids": [
+        "comfyui-history-keyerror-name",
+        "comfyui-completed-without-media",
+        "comfyui-duplicate-background-runner",
+        "comfyui-resume-from-last-success"
+      ],
+      "self_test": "scripts/self_test.py",
+      "validated_at": "2026-07-29"
+    }
+  ]
+}
