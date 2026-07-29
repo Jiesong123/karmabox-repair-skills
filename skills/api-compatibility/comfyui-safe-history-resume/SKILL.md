@@ -2,11 +2,7 @@
 name: comfyui-safe-history-resume
 description: 安全解析 ComfyUI `/history/{prompt_id}` 中分布在各输出节点的图片、视频和 GIF，兼容 `filename` 与旧式 `name` 字段，识别 execution_error、成功但空输出、下载失败和损坏媒体，并通过锁文件与 manifest 从最后成功镜头续跑。用于修复 KeyError:name、poll_history、空 outputs、重复后台任务、错误完成报告以及批量图片或视频任务恢复。
 ---
----
----
-name: comfyui-safe-history-resume
-description: 修复 ComfyUI history 输出字段解析错误、安全下载生成结果，并从未完成镜头继续生产。用于出现 KeyError name、任务完成但找不到输出、重复生成镜头或断点恢复失败时。
----
+
 
 # 文件作用
 
@@ -16,7 +12,7 @@ description: 修复 ComfyUI history 输出字段解析错误、安全下载生�
 - `references/`：存放 ComfyUI API 技术说明。
 - `agents/`：存放技能展示名称和调用配置。
 - `REPAIR.md`：给维护人员看的故障与修复说明。
----
+
 
 # ComfyUI 安全结果解析与续跑
 
