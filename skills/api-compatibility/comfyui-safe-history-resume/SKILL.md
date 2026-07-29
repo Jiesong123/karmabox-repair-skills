@@ -4,7 +4,8 @@ description: 安全解析 ComfyUI `/history/{prompt_id}` 中分布在各输出�
 ---
 ---
 name: 文件作用
-description:SKILL.md      = 告诉 KarmaBox 应该怎么做；
+description: 
+SKILL.md      = 告诉 KarmaBox 应该怎么做；
 scripts/      = 实际执行修复；
 assets/       = 测试数据
 references/   = API 技术说明
